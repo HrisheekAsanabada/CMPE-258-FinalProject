@@ -64,18 +64,10 @@ We evaluated several state-of-the-art architectures:
 
 2. **LSTM Architecture**
    - Better temporal modeling
-   - Accuracy: 93.8%
+   - Accuracy: 70.18%
    - Suitable for continuous speech
+   - slow inference
 
-3. **VGG-based Architecture**
-   - Deep feature extraction
-   - Accuracy: 91.2%
-   - Good feature hierarchy
-
-4. **ResNet-based Architecture**
-   - Skip connections
-   - Accuracy: 94.5%
-   - Deep network stability
 
 ### Selected Model Architecture
 ```python
