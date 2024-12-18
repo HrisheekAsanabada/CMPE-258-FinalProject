@@ -159,16 +159,30 @@ streamlit run app.py
 
 ## Project Structure
 ```
-├── app.py                     # Streamlit web application
-├── models/
+── Data_Analysis/           # Data preprocessing and analysis scripts
+│   ├── Ravdes.ipynb
+│   ├── data_visualization.ipynb
+│   └── dataset_analysis.ipynb
+│
+├── Intermediate_Files/      # Generated features and processed data
+│   ├── features/
+│   ├── processed_audio/
+│   └── readme.txt
+│
+├── Model_training/         # Model training implementations
+│   ├── cnn_model.ipynb
+│   ├── lstm_model.ipynb
+│   
+│
+├── models/                 # Saved model weights and configurations
 │   ├── emotion_recognition_model.keras
 │   ├── feature_scaler.pickle
 │   └── label_encoder.pickle
-├── src/
-│   ├── feature_extraction.py
-│   ├── model_training.py
-│   └── data_processing.py
-└── requirements.txt
+│
+├── app.py                  # Streamlit web application
+├── Dockerfile             # Docker configuration
+├── requirements.txt       # Project dependencies
+└── README.md             # Project documentation
 ```
 
 ## Future Work
